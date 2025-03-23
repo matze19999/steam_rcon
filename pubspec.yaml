@@ -1,0 +1,43 @@
+name: steam_rcon
+description: >
+    Dart implementation of the Source RCON protocol for communicating with game servers.
+    Supports authentication, command sending, automatic reconnection, and network monitoring.
+
+version: 1.0.0
+homepage: https://github.com/matze19999/steam_rcon
+repository: https://github.com/matze19999/steam_rcon
+
+environment:
+    sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+    connectivity_plus: ^5.0.2
+
+dev_dependencies:
+    lints: ^3.0.0
+    test: ^1.24.0
+
+example: example/main.dart
+
+topics:
+    - rcon
+    - server
+    - gameserver
+    - networking
+    - steam
+
+platforms:
+    android:
+    ios:
+    linux:
+    macos:
+    web:
+    windows:
+
+# Tags helfen bei der Auffindbarkeit auf pub.dev
+tags:
+    - rcon
+    - gameserver
+    - source-engine
+    - networking
+    - steam
