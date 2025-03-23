@@ -1,6 +1,3 @@
-
----
-
 ### 📄 `README.md`
 
 ```markdown
@@ -25,7 +22,7 @@ Add the following to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  steam-rcon: ^1.0.0
+  steam-rcon: ^1.0.4
 ```
 
 Or use a local path during development:
@@ -118,6 +115,3 @@ Pull requests are welcome! If you want to help improve the package, feel free to
 - [Source RCON Protocol Docs](https://developer.valvesoftware.com/wiki/Source_RCON_Protocol)
 - [Dart SDK](https://dart.dev)
 - [connectivity_plus](https://pub.dev/packages/connectivity_plus)
-```
-
----

@@ -3,7 +3,7 @@ description: >
     Dart implementation of the Source RCON protocol for communicating with game servers.
     Supports authentication, command sending, automatic reconnection, and network monitoring.
 
-version: 1.0.0
+version: 1.0.4
 homepage: https://github.com/matze19999/steam_rcon
 repository: https://github.com/matze19999/steam_rcon
 
